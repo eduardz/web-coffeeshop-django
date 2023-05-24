@@ -43,7 +43,7 @@ Tot in base.html se adauga si navigation bar - > https://getbootstrap.com/docs/4
 Iar in home.html folosesc card style template  https://getbootstrap.com/docs/4.3/components/card/ 
 
 
-##### run the server 
+###### Run the server to get access from all interfaces (external access to server) and forward to a reverse proxy server  
 ` python3 manage.py runserver 0.0.0.0:8000 `
 
 ### Server runs in docker
