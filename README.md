@@ -1,4 +1,5 @@
-### Project Cafenea
+### Project Coffee Shop 
+![Django web page](coffeeshop/coffee/templates/menu.jpg)
 
 #### Crearea Proiectului in VSCode
 VSCode Open folder -> new terminal console:
