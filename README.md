@@ -47,5 +47,7 @@ Iar in home.html folosesc card style template  https://getbootstrap.com/docs/4.3
 ##### run the server 
 ` python3 manage.py runserver 0.0.0.0:8000 `
 
+### Server runs in docker
+docker compose up -d
 
 
