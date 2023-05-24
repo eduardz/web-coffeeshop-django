@@ -23,13 +23,13 @@ Allow from other locations:
 `PS C:\Users\eu\Desktop\coffeeshop> python manage.py startapp coffee `
 
 
-### Creare baza de date in cafeneaweb/models.py  -> in cafenea/settings.py database -> db.sqlite3
-### Add app to INSTALLED_APPS (cofeeshop/settings.py) then migrate database
+#### Creare baza de date in cofee/models.py in cofeeshop/settings.py database -> db.sqlite3   \
+#### Add app to INSTALLED_APPS (cofeeshop/settings.py) then migrate database \
 ` PS C:\Users\eu\Desktop\coffeeshop> python manage.py makemigrations ` 
-
+` python manage.py migrate `
 
 #### Backed Django
-#### migrate face push la configurari in db
+Mgrate face push la configurari in db
 ``` 
 python manage.py migrate
 ```
@@ -48,5 +48,3 @@ Iar in home.html folosesc card style template  https://getbootstrap.com/docs/4.3
 
 ### Server runs in docker
 docker compose up -d
-
-
