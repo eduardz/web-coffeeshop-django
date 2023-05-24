@@ -38,8 +38,8 @@ python manage.py migrate
 
 #### Produsele se adauga din admin interface , apoi se creaza folder nou de templates pentru web pages coffee/templates 
 Se creaza home.html si base.html 
-Iar in base.html  in care se adauga starter template  ->  https://getbootstrap.com/docs/4.3/getting-started/introduction/ 
-Tot in base.html se adauga si navigation bar - > https://getbootstrap.com/docs/4.3/components/navbar/ 
+Iar in base.html  in care se adauga starter template  ->  https://getbootstrap.com/docs/4.3/getting-started/introduction/ \
+Tot in base.html se adauga si navigation bar - > https://getbootstrap.com/docs/4.3/components/navbar/ \
 Iar in home.html folosesc card style template  https://getbootstrap.com/docs/4.3/components/card/ 
 
 
