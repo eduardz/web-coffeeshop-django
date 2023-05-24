@@ -1,0 +1,14 @@
+version: '3'
+services:
+  coffeeapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - $PWD/coffeeshop:/coffeeshop
+      - $PWD/coffeeshop/db.sqlite3:/db.sqlite3
+    container_name: coffee-app
+    environment:
+      - PYTHONPATH=$${PYTHONPATH}:/coffeeshop
+    ports:
+      - "8000:8000"
