@@ -29,13 +29,12 @@ Allow from other locations:
 
 
 #### Backed Django
-#### -> migrarea face push la configurari in db
-#### create admin user
+#### migrate face push la configurari in db
 ``` 
 python manage.py migrate
-python manage.py createsuperuser 
 ```
-admin:pwd123 
+#### create admin user
+` python manage.py createsuperuser `
 
 #### Produsele se adauga din admin interface , apoi se creaza folder nou de templates pentru web pages coffee/templates 
 Se creaza home.html si base.html 
