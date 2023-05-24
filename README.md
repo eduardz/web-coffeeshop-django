@@ -3,9 +3,9 @@
 
 #### Crearea Proiectului nou 
     ```bash
-    $ sudo dnf install python3-pip 
-    $ pip install django 
-    $ django-admin startproject coffeeshop . 
+    $sudo dnf install python3-pip 
+    $pip install django 
+    $django-admin startproject coffeeshop . 
     ```
 
 ##### After the profile was created, add the application with a different name than project name
