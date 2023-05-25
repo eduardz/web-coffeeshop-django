@@ -1,7 +1,7 @@
 ###  A Web server Coffee Shop Project in Django
 ![Django web page](coffeeshop/coffee/templates/menu.jpg)
 
-#### Crearea Proiectului nou 
+#### New project  
     ```
     $ sudo dnf install python3-pip 
     $ pip install django 
@@ -36,6 +36,6 @@ Migrate is pushing to configuration into the SqlLite database
     ```
 ### Deployement with docker, docker compose   
 ##### Server runs in docker
-    ```bash 
+    ``` bash 
     $ docker compose up -d
     ```
