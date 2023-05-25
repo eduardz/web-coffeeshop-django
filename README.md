@@ -18,10 +18,10 @@
     $ python3 -m pip install -r requirements.txt
     ```
 
-##### Backed Django
+##### Backend Django
 Migrate is pushing to configuration into the SqlLite database
     ```bash
-    $ python manage.py makemigrations 
+    $ python manage.py makemigrations \
     $ python manage.py migrate
     ```
 
@@ -36,6 +36,6 @@ Migrate is pushing to configuration into the SqlLite database
     ```
 ### Deployement with docker, docker compose   
 ##### Server runs in docker
-    ``` bash 
+    ```bash 
     $ docker compose up -d
     ```
